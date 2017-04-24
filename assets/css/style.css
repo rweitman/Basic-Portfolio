@@ -1,0 +1,201 @@
+body {
+	padding: 0;
+	margin: 0;
+	background-image: url(../images/Grey-Background.jpg);
+	background-repeat: repeat;
+}
+
+
+header {
+	margin: auto;
+	background: #ffffff;
+	width: 100%;
+	height: 90px;
+	text-align: center;
+	border-bottom: 2px solid #cccccc;
+	clear:both;
+}
+
+footer-index {
+	margin: auto;
+	position:absolute;
+	top:480px;
+	left: 0px;
+	background: #666666;
+	width: 100%;
+	height: 90px;
+	text-align: center;
+	line-height:90px;
+	color: #ffffff;
+	border-top: 5px solid #4aaaa5;
+	clear:both;
+}
+
+footer-contact {
+	margin: auto;
+	position:absolute;
+	top:750px;
+	left: 0px;
+	background: #666666;
+	width: 100%;
+	height: 90px;
+	text-align: center;
+	line-height:90px;
+	color: #ffffff;
+	border-top: 5px solid #4aaaa5;
+	clear:both;
+}
+
+footer-portfolio {
+	margin: auto;
+	position:absolute;
+	top:1000px;
+	left: 0px;
+	background: #666666;
+	width: 100%;
+	height: 90px;
+	text-align: center;
+	line-height:90px;
+	color: #ffffff;
+	border-top: 5px solid #4aaaa5;
+	clear:both;
+}
+
+
+#name {
+	position: absolute;
+    top: 0px;
+    left: 160px;
+    width: 250px;
+    height: 90px;
+    line-height: 90px;
+    color: #ffffff;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-weight: bold;
+    font-size: 20px;
+    background: #4aaaa5;
+    text-align:center;
+}
+
+#main_links {
+	position: absolute;
+    top: 0px;
+    left: 850px;
+    width: 350px;
+    height: 90px;
+    line-height: 90px;
+    color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 18px;
+    background: transparent
+}
+
+#content-border {
+	position: absolute;
+	top: 135px;
+	left: 160px;
+	width: 650px;
+	height: auto;
+	background: #ffffff;
+	border: 2px solid #dddddd;
+	padding: 20px;
+}
+
+#content-title {
+	color: #4aaaa5;
+	font-weight: bold;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 30px;
+}
+
+#about {
+	  color: #777777;
+	  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	  font-size: 18px;
+	  line-height: 30px;
+}
+
+#textWrap {
+	float:left;
+	margin: 10px;
+}
+
+#connect-border {
+	position: absolute;
+	top: 135px;
+	left: 870px;
+	width: 270px;
+	height: auto;
+	background: #ffffff;
+	border: 2px solid #dddddd;
+	padding: 20px;
+}
+
+#connect-title {
+	color: #4aaaa5;
+	font-weight: bold;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 25px;
+}
+
+#category{
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 20px;
+	color: #777777;
+	padding-top:20px;
+	padding-bottom:10px;
+}
+
+
+
+
+#submission {
+	border: transparent;
+	background: #4aaaa5;
+	color: #ffffff;
+	font-size: 20px;
+	width: 120px;
+	height: 45px;
+}
+
+
+#hangman {
+	position: absolute;
+	top:100px;
+	left:20px;
+}
+
+#rpg_game {
+	position: absolute;
+	top:100px;
+	left:350px;
+}
+
+#trivia_game {
+	position:absolute;
+	top:350px;
+	left:20px;
+}
+
+#rutgers_info_widget{
+	position: absolute;
+	top: 350px;
+	left:350px;
+}
+
+#rock_paper_scissors {
+	position: absolute;
+	top:600px;
+	left:20px;
+}
+
+#portfolio-border {
+	position: absolute;
+	top: 135px;
+	left: 160px;
+	width: 650px;
+	height: 800px;
+	background: #ffffff;
+	border: 2px solid #dddddd;
+	padding: 20px;
+}
