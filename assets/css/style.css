@@ -138,7 +138,7 @@ footer-portfolio {
 	font-size: 25px;
 }
 
-#category{
+.category{
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	font-size: 20px;
 	color: #777777;
@@ -198,4 +198,8 @@ footer-portfolio {
 	background: #ffffff;
 	border: 2px solid #dddddd;
 	padding: 20px;
+}
+
+input[type="text"], textarea {
+	width:650px;
 }
