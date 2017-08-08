@@ -2,51 +2,58 @@
 <html lang="en-us">
 
 <head>
-  <meta charset="UTF-8">
-  <title>Basic Portfolio - Portfolio</title>
-  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
- </head>
+	<meta charset="UTF-8">
+	<!-- Sets the Title of the Webpage -->
+	<title>Basic Portfolio - Portfolio</title>
+	<!-- Connecting this HTML file with the 2 CSS Files -->
+	<!-- Reset.css clears formatting while Style.css adds formatting -->
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
 
- <body>
-
-<header>
-	<div id="name">
-		Robert Weitman
+<body>
+	<!-- Creates the header at the top of the page -->
+	<header>
+		<!-- Puts name near the top left corner of webpage  -->
+		<div id="name">
+			Robert Weitman
+		</div>
+		<!-- Puts links near the top right corner of webpage -->
+		<div id="main_links">
+			<a href = "index.html">About</a>  &ensp;  |  &ensp;   <a href="portfolio.html">Portfolio</a>  &ensp;   |  &ensp;  <a href="contact.html">Contact</a>
+		</div>
+	</header>
+	<!-- Creates a content box with the title "Portfolio" -->
+	<div id="portfolio-border">
+		<font id="content-title">Portfolio<br></font>
+		<br>
+		<hr color="#777777" size="2">
+		<!-- Lists several app images -->
+		<img src="assets/images/hangman.png" id="hangman" alt="Hangman">
+		<img src="assets/images/rpg_game.png" id="rpg_game" alt="RPG Game">
+		<img src="assets/images/trivia_game.png" id="trivia_game" alt="Trivia Game">
+		<img src="assets/images/rutgers_info_widget.png" id="rutgers_info_widget" alt="Rutgers Info Widget">
+		<img src="assets/images/rock_paper_scissors.png" id="rock_paper_scissors" alt="Rock Paper Scissors">
 	</div>
-	<div id="main_links">
-		<a href = "index.html">About</a>  &ensp;  |  &ensp;   <a href="portfolio.html">Portfolio</a>  &ensp;   |  &ensp;  <a href="contact.html">Contact</a>
+	<!-- Creates a content box with the title "Connect with Me" -->
+	<div id="connect-border">
+		<center><font id="connect-title">Connect with Me</font></center>
+		<br>
+		<hr color="#777777" size="2">
+		<br>
+		<center>
+			<!-- Adds 3 Images that are Links to Different Websites -->
+			<a href="https://github.com/rweitman/"><img src="assets/images/github.png" width="60px" height="60px" alt="GitHub"></a>
+			&ensp;
+			<a href="https://www.linkedin.com/in/robertweitman/"><img src="assets/images/linkedin.png" width="60px" height="60px" alt="LinkedIn"></a>
+			&ensp;
+			<a href="http://stackoverflow.com/users/7736634/robert-weitman?tab=profile"><img src="assets/images/stackoverflow.png" width="60px" height="60px" alt="Stack OverFlow"></a>
+		</center>
 	</div>
-</header>
-
-<div id="portfolio-border">
-	<font id="content-title">Portfolio<br></font>
-	<br>
-	<hr color="#777777" size="2">
-	<img src="assets/images/hangman.png" id="hangman" alt="Hangman">
-	<img src="assets/images/rpg_game.png" id="rpg_game" alt="RPG Game">
-	<img src="assets/images/trivia_game.png" id="trivia_game" alt="Trivia Game">
-	<img src="assets/images/rutgers_info_widget.png" id="rutgers_info_widget" alt="Rutgers Info Widget">
-	<img src="assets/images/rock_paper_scissors.png" id="rock_paper_scissors" alt="Rock Paper Scissors">
-</div>
-
-<div id="connect-border">
-	<center><font id="connect-title">Connect with Me</font></center>
-	<br>
-	<hr color="#777777" size="2">
-	<br>
-	<center>
-		<a href="https://github.com/rweitman/"><img src="assets/images/github.png" width="60px" height="60px" alt="GitHub"></a>
-		&ensp;
-		<a href="https://www.linkedin.com/in/robertweitman/"><img src="assets/images/linkedin.png" width="60px" height="60px" alt="LinkedIn"></a>
-		&ensp;
-		<a href="http://stackoverflow.com/users/7736634/robert-weitman?tab=profile"><img src="assets/images/stackoverflow.png" width="60px" height="60px" alt="Stack OverFlow"></a>
-	</center>
-</div>
-
-<footer-portfolio>
-	@Copyright 2017 Robert Weitman
-</footer-portfolio>
+	<!-- Creates a copyright notification at the bottom of the page -->
+	<footer-portfolio>
+		@Copyright 2017 Robert Weitman
+	</footer-portfolio>
 
 </body>
 
